@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="./src/css/index.css" rel="stylesheet" type="text/css">
+  <script src="./src/js/utils.js" type="text/javascript"></script>
+  <script src="./src/js/calculate.js" type="text/javascript"></script>
+  <script src="./src/js/index.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="input-area">
+      <div class="horizontal">
+        <input id="input-width" type="number" placeholder="Ancho" class="input short-input" />
+        <input id="input-height" type="number" placeholder="Alto" class="input short-input" />
+      </div>
+
+      <br>
+
+      <div style="display: flex; justify-content: center;">
+        <input id="input-desired" type="number" type="text" placeholder="Deseado" class="input large-input" />
+      </div>
+
+      <br>
+
+      <div class="horizontal">
+        <div>
+          <input id="dest-radio-width" type="radio" title="Ancho" checked />
+          <label for="dest-radio-width">Ancho</label>
+
+          <br>
+
+          <input id="dest-radio-height" type="radio" title="Alto" />
+          <label for="dest-radio-height">Alto</label>
+        </div>
+
+        <p id="output" />
+      </div>
+
+      <br>
+    </div>
+
+    <div>
+      <div id="rectangle-input" class="center">
+        <p id="fraction" />
+      </div>
+
+      <div id="rectangle-output" />
+    </div>  
+  </div>
+</body>
